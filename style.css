@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #a59ffa;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.content-container{
+    background-color: rgb(214, 188, 255);
+    width: 90%;
+    padding: 10px 40px;
+}
+
+.file-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#previewContainer{
+    height: 65vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
